@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent">
+
+
+  <ScrollView android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+>
+      <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="horizontal"
+      >
+    <LinearLayout android:layout_width="@dimen/_150sdp"
+                  android:layout_height="wrap_content"
+    android:orientation="vertical">
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+        android:text="Choose Batsman1"
+                  android:textColor="#000"
+        android:textSize="@dimen/_18sdp"/>
+        <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="@dimen/_6sdp">
+<RadioButton android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="@dimen/_5sdp"
+android:id="@+id/p1check"/>
+        <RadioButton android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="@dimen/_5sdp"
+                  android:id="@+id/p2check"/>
+        <RadioButton android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="@dimen/_5sdp"
+                  android:id="@+id/p3check"/>
+        <RadioButton android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="@dimen/_5sdp"
+                  android:id="@+id/p4check"/>
+        <RadioButton android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="@dimen/_5sdp"
+                  android:id="@+id/p5check"/>
+        <RadioButton android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="@dimen/_5sdp"
+                  android:id="@+id/p6check"/>
+        <RadioButton android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="@dimen/_5sdp"
+                  android:id="@+id/p7check"/>
+        <RadioButton android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="@dimen/_5sdp"
+                  android:id="@+id/p8check"/>
+        <RadioButton android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="@dimen/_5sdp"
+                  android:id="@+id/p9check"/>
+        <RadioButton android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="@dimen/_5sdp"
+                  android:id="@+id/p10check"/>
+        <RadioButton android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="@dimen/_5sdp"
+                  android:id="@+id/p11check"/>
+        <RadioButton android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="@dimen/_5sdp"
+                  android:id="@+id/extrapcheck"/>
+
+        </RadioGroup>
+    </LinearLayout>
+    <LinearLayout android:layout_width="@dimen/_150sdp"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical"
+    >
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textColor="#000"
+                  android:text="Choose Bowler1"
+                  android:textSize="@dimen/_18sdp"/>
+        <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="@dimen/_6sdp">
+        <RadioButton android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="@dimen/_5sdp"
+                  android:id="@+id/b1check"/>
+        <RadioButton android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="@dimen/_5sdp"
+                  android:id="@+id/b2check"/>
+        <RadioButton android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="@dimen/_5sdp"
+                  android:id="@+id/b3check"/>
+        <RadioButton android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="@dimen/_5sdp"
+                  android:id="@+id/b4check"/>
+        <RadioButton android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="@dimen/_5sdp"
+                  android:id="@+id/b5check"/>
+        <RadioButton android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="@dimen/_5sdp"
+                  android:id="@+id/b6check"/>
+        <RadioButton android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="@dimen/_5sdp"
+                  android:id="@+id/b7check"/>
+        <RadioButton android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="@dimen/_5sdp"
+                  android:id="@+id/b8check"/>
+        <RadioButton android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="@dimen/_5sdp"
+                  android:id="@+id/b9check"/>
+        <RadioButton android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="@dimen/_5sdp"
+                  android:id="@+id/b10check"/>
+        <RadioButton android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="@dimen/_5sdp"
+                  android:id="@+id/b11check"/>
+        <RadioButton android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="@dimen/_5sdp"
+                  android:id="@+id/extrabcheck"/>
+
+        </RadioGroup>
+    </LinearLayout>
+      </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+        >
+            <LinearLayout android:layout_width="@dimen/_150sdp"
+                          android:layout_height="wrap_content"
+                          android:orientation="vertical">
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="Choose Batsman2"
+                          android:textColor="#000"
+                          android:textSize="@dimen/_18sdp"/>
+                <RadioGroup
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="@dimen/_6sdp">
+                    <RadioButton android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"
+                                 android:layout_marginTop="@dimen/_5sdp"
+                                 android:id="@+id/player1check"/>
+                    <RadioButton android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                android:id="@+id/player2check"/>
+                    <RadioButton android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"
+                                 android:layout_marginTop="@dimen/_5sdp"
+                                 android:id="@+id/player3check"/>
+                    <RadioButton android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"
+                                 android:layout_marginTop="@dimen/_5sdp"
+                                 android:id="@+id/player4check"/>
+                    <RadioButton android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"
+                                 android:layout_marginTop="@dimen/_5sdp"
+                                 android:id="@+id/player5check"/>
+                    <RadioButton android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"
+                                 android:layout_marginTop="@dimen/_5sdp"
+                                 android:id="@+id/player6check"/>
+                    <RadioButton android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"
+                                 android:layout_marginTop="@dimen/_5sdp"
+                                 android:id="@+id/player7check"/>
+                    <RadioButton android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"
+                                 android:layout_marginTop="@dimen/_5sdp"
+                                 android:id="@+id/player8check"/>
+                    <RadioButton android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"
+                                 android:layout_marginTop="@dimen/_5sdp"
+                                 android:id="@+id/player9check"/>
+                    <RadioButton android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"
+                                 android:layout_marginTop="@dimen/_5sdp"
+                                 android:id="@+id/player10check"/>
+                    <RadioButton android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"
+                                 android:layout_marginTop="@dimen/_5sdp"
+                                 android:id="@+id/player11check"/>
+                    <RadioButton android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"
+                                 android:layout_marginTop="@dimen/_5sdp"
+                                 android:id="@+id/extraplayercheck"/>
+
+                </RadioGroup>
+            </LinearLayout>
+            <LinearLayout android:layout_width="@dimen/_150sdp"
+                          android:layout_height="wrap_content"
+                          android:orientation="vertical"
+            >
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:textColor="#000"
+                          android:text="Choose Bowler2"
+                          android:textSize="@dimen/_18sdp"/>
+                <RadioGroup
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginLeft="@dimen/_6sdp">
+                    <RadioButton android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"
+                                 android:layout_marginTop="@dimen/_5sdp"
+                                 android:id="@+id/bowler1check"/>
+                    <RadioButton android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"
+                                 android:layout_marginTop="@dimen/_5sdp"
+                                 android:id="@+id/bowler2check"/>
+                    <RadioButton android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"
+                                 android:layout_marginTop="@dimen/_5sdp"
+                                 android:id="@+id/bowler3check"/>
+                    <RadioButton android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"
+                                 android:layout_marginTop="@dimen/_5sdp"
+                                 android:id="@+id/bowler4check"/>
+                    <RadioButton android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"
+                                 android:layout_marginTop="@dimen/_5sdp"
+                                 android:id="@+id/bowler5check"/>
+                    <RadioButton android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"
+                                 android:layout_marginTop="@dimen/_5sdp"
+                                 android:id="@+id/bowler6check"/>
+                    <RadioButton android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"
+                                 android:layout_marginTop="@dimen/_5sdp"
+                                 android:id="@+id/bowler7check"/>
+                    <RadioButton android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"
+                                 android:layout_marginTop="@dimen/_5sdp"
+                                 android:id="@+id/bowler8check"/>
+                    <RadioButton android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"
+                                 android:layout_marginTop="@dimen/_5sdp"
+                                 android:id="@+id/bowler9check"/>
+                    <RadioButton android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"
+                                 android:layout_marginTop="@dimen/_5sdp"
+                                 android:id="@+id/bowler10check"/>
+                    <RadioButton android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"
+                                 android:layout_marginTop="@dimen/_5sdp"
+                                 android:id="@+id/bowler11check"/>
+                    <RadioButton android:layout_width="wrap_content"
+                                 android:layout_height="wrap_content"
+                                 android:layout_marginTop="@dimen/_5sdp"
+                                 android:id="@+id/extrabowlercheck"/>
+
+                </RadioGroup>
+            </LinearLayout>
+        </LinearLayout>
+        <Button android:layout_width="match_parent" android:layout_height="match_parent"
+        android:id="@+id/next_bt"
+        android:text="Next"/>
+</LinearLayout>
+  </ScrollView>
+
+</LinearLayout>

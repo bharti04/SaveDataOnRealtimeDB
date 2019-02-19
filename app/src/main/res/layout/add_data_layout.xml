@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent">
+   <ScrollView android:layout_width="match_parent"
+               android:layout_height="match_parent">
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+        <LinearLayout
+                android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Match Type"
+                android:id="@+id/matchtype_tv"
+        />
+            <Spinner
+                    android:layout_width="match_parent"
+                      android:layout_height="@dimen/_20sdp"
+            android:id="@+id/matchtype_spinner"/>
+        </LinearLayout>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Status"
+
+                    android:id="@+id/status_tv"
+            />
+            <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_20sdp"
+                    android:id="@+id/status_spinner"/>
+        </LinearLayout>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Inning"
+
+                    android:id="@+id/inning_tv"
+            />
+            <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_20sdp"
+                    android:id="@+id/inning_spinner"/>
+        </LinearLayout>
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+            >
+            <LinearLayout
+                    android:layout_width="@dimen/_150sdp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:orientation="vertical">
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Toss Win Team"
+                        android:id="@+id/toss_tv"
+                />
+                <Spinner
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_20sdp"
+                        android:id="@+id/tosswin_spinner"/>
+            </LinearLayout>
+            <LinearLayout
+                    android:layout_width="@dimen/_150sdp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:orientation="vertical">
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Choose"
+
+                        android:id="@+id/chosse_tv"
+                />
+                <Spinner
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_20sdp"
+                        android:id="@+id/choose_spinner"/>
+            </LinearLayout>
+
+        </RelativeLayout>
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Team Detail"/>
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <LinearLayout
+                    android:layout_width="@dimen/_150sdp"
+                          android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_alignParentLeft="true">
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                android:text="Team1 Name"
+                android:id="@+id/t1name_tv"/>
+                <EditText android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                        android:hint="Enter Name"
+                          android:id="@+id/t1name_et"/>
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="Team1 Flag Url"
+                          android:id="@+id/t1flag_tv"/>
+                <EditText android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:hint="Enter Flag Url"
+                          android:id="@+id/t1flag_et"/>
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="Team1 Over"
+                          android:id="@+id/t1over_tv"/>
+                <EditText android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:hint="Enter Over"
+                          android:id="@+id/t1over_et"/>
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="Team1 Run"
+                          android:id="@+id/t1run_tv"/>
+                <EditText android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:hint="Enter Run"
+                          android:id="@+id/t1run_et"/>
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="Team1 Viket"
+                          android:id="@+id/t1viket_tv"/>
+                <EditText android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:hint="Enter Viket"
+                          android:id="@+id/t1viket_et"/>
+
+            </LinearLayout>
+            <LinearLayout
+                    android:layout_width="@dimen/_150sdp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                   android:layout_alignParentRight="true">
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="Team1 Name"
+                          android:id="@+id/t2name_tv"/>
+                <EditText android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:hint="Enter Name"
+                          android:id="@+id/t2name_et"/>
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="Team1 Flag Url"
+                          android:id="@+id/t2flag_tv"/>
+                <EditText android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:hint="Enter Flag Url"
+                          android:id="@+id/t2flag_et"/>
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="Team1 Over"
+                          android:id="@+id/t2over_tv"/>
+                <EditText android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:hint="Enter Over"
+                          android:id="@+id/t2over_et"/>
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="Team1 Run"
+                          android:id="@+id/t2run_tv"/>
+                <EditText android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:hint="Enter Run"
+                          android:id="@+id/t2run_et"/>
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="Team1 Viket"
+                          android:id="@+id/t2viket_tv"/>
+                <EditText android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:hint="Enter Viket"
+                          android:id="@+id/t2viket_et"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Batsman Detail"/>
+        <LinearLayout android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal">
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Strike"/>
+
+            <CheckBox android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="@dimen/_10sdp"
+                      android:text="Strike"
+            android:id="@+id/b1strike_check"/>
+
+            <CheckBox android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Strike"
+                      android:id="@+id/b2strike_check"/>
+
+        </LinearLayout>
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <LinearLayout
+                    android:layout_width="@dimen/_150sdp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_alignParentLeft="true">
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="Team1 Name"
+                          android:id="@+id/b1name_tv"/>
+                <EditText android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:hint="Enter Name"
+                          android:id="@+id/b1name_et"/>
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="Team1 Run"
+                          android:id="@+id/b1run_tv"/>
+                <EditText android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:hint="Enter Run"
+                          android:id="@+id/b1run_et"/>
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="Team1 Balls"
+                          android:id="@+id/b1ball_tv"/>
+                <EditText android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:hint="Enter balls"
+                          android:id="@+id/b1ball_et"/>
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="Team1 4s"
+                          android:id="@+id/b14s_tv"/>
+                <EditText android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:hint="Enter 4s"
+                          android:id="@+id/b14s_et"/>
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="Team1 6s"
+                          android:id="@+id/b16s_tv"/>
+                <EditText android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:hint="Enter 6s"
+                          android:id="@+id/b16s_et"/>
+
+            </LinearLayout>
+            <LinearLayout
+                    android:layout_width="@dimen/_150sdp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_alignParentRight="true">
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="Team1 Name"
+                          android:id="@+id/b2name_tv"/>
+                <EditText android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:hint="Enter Name"
+                          android:id="@+id/b2name_et"/>
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="Team1 Run"
+                          android:id="@+id/b2run_tv"/>
+                <EditText android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:hint="Enter R"
+                          android:id="@+id/b2run_et"/>
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="Team1 Over"
+                          android:id="@+id/b2ball_tv"/>
+                <EditText android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:hint="Enter Over"
+                          android:id="@+id/b2ball_et"/>
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="Team1 Run"
+                          android:id="@+id/b24s_tv"/>
+                <EditText android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:hint="Enter Run"
+                          android:id="@+id/b24s_et"/>
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="Team1 Viket"
+                          android:id="@+id/b26s_tv"/>
+                <EditText android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:hint="Enter Viket"
+                          android:id="@+id/b26s_et"/>
+
+            </LinearLayout>
+        </RelativeLayout>
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Bowler Detail"/>
+        <LinearLayout android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal">
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Strike"/>
+
+            <CheckBox android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="@dimen/_10sdp"
+                      android:text="Bowler1"
+                      android:id="@+id/bowler1strike_check"/>
+
+            <CheckBox android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:text="Bowler2"
+                      android:id="@+id/bowler2strike_check"/>
+
+        </LinearLayout>
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <LinearLayout
+                    android:layout_width="@dimen/_150sdp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_alignParentLeft="true">
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="Team1 Name"
+                          android:id="@+id/bowler1name_tv"/>
+                <EditText android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:hint="Enter Name"
+                          android:id="@+id/bowler1name_et"/>
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="Team1 Flag Url"
+                          android:id="@+id/bowler1flag_tv"/>
+                <EditText android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:hint="Enter Flag Url"
+                          android:id="@+id/bowler1flag_et"/>
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="Team1 Over"
+                          android:id="@+id/bowler1over_tv"/>
+                <EditText android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:hint="Enter Over"
+                          android:id="@+id/bowler1over_et"/>
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="Team1 Run"
+                          android:id="@+id/bowler1run_tv"/>
+                <EditText android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:hint="Enter Run"
+                          android:id="@+id/bowler1run_et"/>
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="Team1 Viket"
+                          android:id="@+id/bowler1viket_tv"/>
+                <EditText android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:hint="Enter Viket"
+                          android:id="@+id/bowler1viket_et"/>
+
+            </LinearLayout>
+            <LinearLayout
+                    android:layout_width="@dimen/_150sdp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_alignParentRight="true">
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="Team1 Name"
+                          android:id="@+id/bowler2name_tv"/>
+                <EditText android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:hint="Enter Name"
+                          android:id="@+id/bowler2name_et"/>
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="Team1 Flag Url"
+                          android:id="@+id/bowler2flag_tv"/>
+                <EditText android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:hint="Enter Flag Url"
+                          android:id="@+id/bowler2flag_et"/>
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="Team1 Over"
+                          android:id="@+id/bowler2over_tv"/>
+                <EditText android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:hint="Enter Over"
+                          android:id="@+id/bowler2over_et"/>
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="Team1 Run"
+                          android:id="@+id/bowler2run_tv"/>
+                <EditText android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:hint="Enter Run"
+                          android:id="@+id/bowler2run_et"/>
+                <TextView android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:text="Team1 Viket"
+                          android:id="@+id/bowler2viket_tv"/>
+                <EditText android:layout_width="wrap_content"
+                          android:layout_height="wrap_content"
+                          android:hint="Enter Viket"
+                          android:id="@+id/bowler2viket_et"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sdp"
+        android:text="Update"
+                android:id="@+id/update_bt"
+        />
+    </LinearLayout>
+   </ScrollView>
+
+</RelativeLayout>

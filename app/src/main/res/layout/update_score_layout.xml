@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent"
+android:orientation="vertical">
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+
+    <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/strike_tv"
+              android:text="Batsman Strike"
+              android:textColor="@color/colorPrimary"
+              android:layout_margin="@dimen/_10sdp"
+              android:textSize="@dimen/_20sdp"/>
+            <RelativeLayout android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+            android:id="@+id/relative_layout">
+            <RadioGroup
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+            android:id="@+id/radiogroup_batsman">
+
+    <RadioButton android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_margin="@dimen/_10sdp"
+              android:id="@+id/player1_check"
+                 android:onClick="onRadioButtonClicked"
+    />
+
+
+    <RadioButton android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:id="@+id/player2_check"
+              android:layout_margin="@dimen/_10sdp"
+                 android:onClick="onRadioButtonClicked"
+
+    />
+            </RadioGroup>
+            </RelativeLayout>
+
+            <RelativeLayout android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/relative_layout2"
+            android:layout_alignParentRight="true">
+                <Button
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="B1 Out"
+           android:id="@+id/out_batsman1_bt"
+
+           />
+                <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/out_batsman2_bt"
+                        android:text="B2 Out"
+                        android:layout_below="@+id/out_batsman1_bt"
+
+                />
+            </RelativeLayout>
+            </RelativeLayout>
+
+
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/run_tv"
+            android:text="Batsman Run"
+            android:textColor="@color/colorPrimary"
+            android:layout_margin="@dimen/_10sdp"
+            android:textSize="@dimen/_20sdp"/>
+    <LinearLayout
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal">
+        <Button android:layout_width="@dimen/_39sdp"
+                android:layout_height="@dimen/_40sdp"
+                android:text="0"
+                android:layout_margin="@dimen/_5sdp"
+                android:id="@+id/run0_check"
+        />
+        <Button android:layout_width="@dimen/_39sdp"
+                  android:layout_height="@dimen/_40sdp"
+                  android:text="1"
+                  android:layout_margin="@dimen/_5sdp"
+                  android:id="@+id/run1_check"
+                  />
+        <Button android:layout_width="@dimen/_39sdp"
+                  android:layout_height="@dimen/_40sdp"
+                  android:text="2"
+                  android:id="@+id/run2_check"
+                  android:layout_margin="@dimen/_5sdp"
+
+        />
+        <Button android:layout_width="@dimen/_39sdp"
+                  android:layout_height="@dimen/_40sdp"
+                  android:text="3"
+                  android:id="@+id/run3_check"
+                  android:layout_margin="@dimen/_5sdp"
+
+        />
+        <Button android:layout_width="@dimen/_39sdp"
+                  android:layout_height="@dimen/_40sdp"
+                  android:text="4"
+                  android:id="@+id/run4_check"
+                  android:layout_margin="@dimen/_5sdp"
+
+        />
+        <Button android:layout_width="@dimen/_39sdp"
+                  android:layout_height="@dimen/_40sdp"
+                  android:text="6"
+                  android:id="@+id/run5_check"
+                  android:layout_margin="@dimen/_5sdp"
+
+        />
+
+    </LinearLayout>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bstrike_tv"
+            android:text="Bowler Strike"
+            android:textColor="@color/colorPrimary"
+            android:layout_margin="@dimen/_10sdp"
+            android:textSize="@dimen/_20sdp"/>
+
+            <RelativeLayout android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                <RelativeLayout android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/relative_layout4">
+                    <RadioGroup
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                    android:id="@+id/radiogroup_bowler">
+
+                        <RadioButton android:layout_width="wrap_content"
+                                     android:layout_height="wrap_content"
+                                     android:layout_margin="@dimen/_10sdp"
+                                     android:id="@+id/bowler1_check"
+                        />
+
+
+                        <RadioButton android:layout_width="wrap_content"
+                                     android:layout_height="wrap_content"
+                                     android:id="@+id/bowler2_check"
+                                     android:layout_margin="@dimen/_10sdp"
+
+                        />
+                    </RadioGroup>
+                </RelativeLayout>
+
+                <RelativeLayout android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/relative_layout3"
+                                android:layout_alignParentRight="true">
+                    <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="B1 Change"
+                            android:id="@+id/out_bowler1_bt"
+
+                    />
+                    <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/out_bowler2_bt"
+                            android:text="B2 Change"
+                            android:layout_below="@+id/out_bowler1_bt"
+
+                    />
+                </RelativeLayout>
+            </RelativeLayout>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/brun_tv"
+            android:text="Bowler Extra Run"
+            android:textColor="@color/colorPrimary"
+            android:layout_margin="@dimen/_10sdp"
+            android:textSize="@dimen/_20sdp"/>
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <Button android:layout_width="@dimen/_40sdp"
+                  android:layout_height="@dimen/_40sdp"
+                  android:text="1"
+                  android:layout_margin="@dimen/_10sdp"
+                  android:id="@+id/brun1_check"
+                 />
+        <Button android:layout_width="@dimen/_40sdp"
+                  android:layout_height="@dimen/_40sdp"
+                  android:text="2"
+                  android:id="@+id/brun2_check"
+                  android:layout_margin="@dimen/_10sdp">
+
+        </Button>
+
+        <Button android:layout_width="@dimen/_40sdp"
+                  android:layout_height="@dimen/_40sdp"
+                  android:text="3"
+                  android:id="@+id/brun3_check"
+                  android:layout_margin="@dimen/_10sdp"
+
+        />
+        <Button android:layout_width="@dimen/_40sdp"
+                  android:layout_height="@dimen/_40sdp"
+                  android:text="4"
+                  android:id="@+id/brun4_check"
+                  android:layout_margin="@dimen/_10sdp"
+
+        />
+        <Button android:layout_width="@dimen/_40sdp"
+                  android:layout_height="@dimen/_40sdp"
+                  android:text="6"
+                  android:id="@+id/brun5_check"
+                  android:layout_margin="@dimen/_10sdp"
+
+        />
+
+    </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

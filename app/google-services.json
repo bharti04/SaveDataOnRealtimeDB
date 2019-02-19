@@ -1,0 +1,174 @@
+{
+  "project_info": {
+    "project_number": "469557821370",
+    "firebase_url": "https://fir-analytics-example-95419.firebaseio.com",
+    "project_id": "fir-analytics-example-95419",
+    "storage_bucket": "fir-analytics-example-95419.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:469557821370:android:4047a85db554e11c",
+        "android_client_info": {
+          "package_name": "com.aryatech.samagraportal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "469557821370-q0fhglv4pss81mecq1nk7k6f654jn0bc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.aryatech.samagraportal",
+            "certificate_hash": "220228a36bbee0c49c7e6d2cc1133d643a7cfc3b"
+          }
+        },
+        {
+          "client_id": "469557821370-tp651mu1ptu5h3f7vjaesor6e8931nuq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEB4UhIJMGt1VN1Cw3j6V-M9v7PBjvVBg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "469557821370-tp651mu1ptu5h3f7vjaesor6e8931nuq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:469557821370:android:1b14ad880616d773",
+        "android_client_info": {
+          "package_name": "com.example.cricketapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "469557821370-3cfqudocgblevjtc10234oicpea1uop7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cricketapp",
+            "certificate_hash": "220228a36bbee0c49c7e6d2cc1133d643a7cfc3b"
+          }
+        },
+        {
+          "client_id": "469557821370-tp651mu1ptu5h3f7vjaesor6e8931nuq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEB4UhIJMGt1VN1Cw3j6V-M9v7PBjvVBg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "469557821370-tp651mu1ptu5h3f7vjaesor6e8931nuq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:469557821370:android:6328a1dad57e1d4a",
+        "android_client_info": {
+          "package_name": "com.example.cricketlivescoreapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "469557821370-tp651mu1ptu5h3f7vjaesor6e8931nuq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEB4UhIJMGt1VN1Cw3j6V-M9v7PBjvVBg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:469557821370:android:039687fcf4e3fc6a",
+        "android_client_info": {
+          "package_name": "com.example.savedataonrealtimedb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "469557821370-jrl5kddp24fud6uc85hshnutqha9dqb1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.savedataonrealtimedb",
+            "certificate_hash": "220228a36bbee0c49c7e6d2cc1133d643a7cfc3b"
+          }
+        },
+        {
+          "client_id": "469557821370-tp651mu1ptu5h3f7vjaesor6e8931nuq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEB4UhIJMGt1VN1Cw3j6V-M9v7PBjvVBg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "469557821370-tp651mu1ptu5h3f7vjaesor6e8931nuq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

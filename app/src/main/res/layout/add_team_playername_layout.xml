@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent"
+android:orientation="vertical">
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+    android:orientation="horizontal">
+        <LinearLayout android:layout_width="@dimen/_150sdp"
+                      android:layout_height="wrap_content"
+        android:orientation="vertical">
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textSize="@dimen/_18sdp"
+                      android:textColor="#000"
+            android:id="@+id/team1_tv"
+            android:text="ghhhhhhh"/>
+            <EditText android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:hint="Enter Player 1"
+                      android:id="@+id/t1player1_et"/>
+            <EditText android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:hint="Enter Player 2"
+                      android:id="@+id/t1player2_et"/>
+            <EditText android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:hint="Enter Player 3"
+                      android:id="@+id/t1player3_et"/>
+            <EditText android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:hint="Enter Player 4"
+                      android:id="@+id/t1player4_et"/>
+            <EditText android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:hint="Enter Player 5"
+                      android:id="@+id/t1player5_et"/>
+            <EditText android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:hint="Enter Player 6"
+                      android:id="@+id/t1player6_et"/>
+            <EditText android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:hint="Enter Player 7"
+                      android:id="@+id/t1player7_et"/>
+            <EditText android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:hint="Enter Player 8"
+                      android:id="@+id/t1player8_et"/>
+            <EditText android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:hint="Enter Player 9"
+                      android:id="@+id/t1player9_et"/>
+            <EditText android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:hint="Enter Player 10"
+                      android:id="@+id/t1player10_et"/>
+            <EditText android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:hint="Enter Player 11"
+                      android:id="@+id/t1player11_et"/>
+            <EditText android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:hint="Enter Extra Player"
+                      android:id="@+id/t1extraplayer_et"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical"
+
+        >
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:id="@+id/team2_tv"
+                      android:textSize="@dimen/_18sdp"
+                      android:textColor="#000"
+                      android:text="ghhhhhhh"/>
+            <EditText android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:hint="Enter Player 1"
+                      android:id="@+id/t2player1_et"/>
+            <EditText android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:hint="Enter Player 2"
+                      android:id="@+id/t2player2_et"/>
+            <EditText android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:hint="Enter Player 3"
+                      android:id="@+id/t2player3_et"/>
+            <EditText android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:hint="Enter Player 4"
+                      android:id="@+id/t2player4_et"/>
+            <EditText android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:hint="Enter Player 5"
+                      android:id="@+id/t2player5_et"/>
+            <EditText android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:hint="Enter Player 6"
+                      android:id="@+id/t2player6_et"/>
+            <EditText android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:hint="Enter Player 7"
+                      android:id="@+id/t2player7_et"/>
+            <EditText android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:hint="Enter Player 8"
+                      android:id="@+id/t2player8_et"/>
+            <EditText android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:hint="Enter Player 9"
+                      android:id="@+id/t2player9_et"/>
+            <EditText android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:hint="Enter Player 10"
+                      android:id="@+id/t2player10_et"/>
+            <EditText android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:hint="Enter Player 11"
+                      android:id="@+id/t2player11_et"/>
+            <EditText android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:hint="Enter Extra Player"
+                      android:id="@+id/t2extraplayer_et"/>
+        </LinearLayout>
+    </LinearLayout>
+        <Button android:layout_width="match_parent"
+                android:layout_height="match_parent"
+        android:text="Submit"
+        android:id="@+id/submitplayer_bt"/>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

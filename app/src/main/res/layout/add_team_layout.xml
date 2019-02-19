@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent"
+android:orientation="vertical">
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+
+    >
+    <LinearLayout android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/_5sdp"
+    android:layout_marginTop="@dimen/_10sdp"
+    android:orientation="horizontal">
+    <LinearLayout
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="wrap_content"
+    android:orientation="vertical"
+
+
+    >
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Team1"/>
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Enter Team1"
+        android:id="@+id/team1_et"/>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="@dimen/_150sdp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="right"
+           >
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Team2"/>
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Enter Team2"
+                android:id="@+id/team2_et"/>
+    </LinearLayout>
+    </LinearLayout>
+   <!-- <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/_10sdp"
+
+    >
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Team1 Flag URL"
+        />
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter team1 flag url"
+                android:id="@+id/team1flagurl_et"
+
+        />
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/_10sdp"
+
+    >
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Team2 Flag URL"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter team2 flag url"
+                android:id="@+id/team2flagurl_et"/>
+    </LinearLayout>
+-->
+
+
+    <LinearLayout android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:layout_marginTop="@dimen/_10sdp"
+                  android:layout_marginLeft="@dimen/_5sdp"
+    >
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+        android:text="Match Type"
+        android:padding="@dimen/_5sdp"/>
+        <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="@dimen/_6sdp">
+            <RadioButton
+                    android:id="@+id/t20_radio_bt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="T20"
+            />
+            <RadioButton
+                    android:id="@+id/odi_radio_bt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="ODI"
+                    android:layout_marginLeft="@dimen/_6sdp"/>
+        </RadioGroup>
+
+    </LinearLayout>
+    <!--<LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:layout_marginTop="@dimen/_10sdp"
+
+                  android:layout_marginLeft="@dimen/_5sdp"
+    >
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Match Status"
+                  android:padding="@dimen/_5sdp"/>
+        <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="@dimen/_5sdp">
+            <RadioButton
+                    android:id="@+id/live_radio_bt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Live"
+            />
+            <RadioButton
+                    android:id="@+id/upcoming_radio_bt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Upcoming"
+                    android:layout_marginLeft="@dimen/_5sdp"/>
+            <RadioButton
+                    android:id="@+id/finished_radio_bt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Finished"
+                    android:layout_marginLeft="@dimen/_5sdp"/>
+        </RadioGroup>
+
+    </LinearLayout>-->
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+    android:id="@+id/submit_bt"
+            android:layout_margin="@dimen/_5sdp"
+    android:text="Submit"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/pleasewait_tv"
+                android:visibility="invisible"
+                android:gravity="center"
+                android:textSize="@dimen/_18sdp"
+                android:textColor="@color/colorPrimary"
+                android:layout_margin="@dimen/_5sdp"
+                android:text="Please wait...."/>
+
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

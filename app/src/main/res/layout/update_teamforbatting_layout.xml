@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent"
+android:orientation="vertical">
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+    android:textSize="@dimen/_15sdp"
+              android:textColor="#000"
+              android:text="Toss Winning Team"
+    />
+    <EditText android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textSize="@dimen/_15sdp"
+android:hint="Enter Team"
+    android:id="@+id/tosswin_et"/>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical"
+                  android:layout_marginTop="@dimen/_10sdp"
+                  android:layout_marginLeft="@dimen/_5sdp"
+    >
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Choose Team For Batting"
+                  android:padding="@dimen/_5sdp"/>
+        <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="@dimen/_6sdp">
+            <RadioButton
+                    android:id="@+id/team1_radio_bt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+            />
+            <RadioButton
+                    android:id="@+id/team2_radio_bt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+
+                    />
+        </RadioGroup>
+
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical"
+                  android:layout_marginTop="@dimen/_10sdp"
+                  android:layout_marginLeft="@dimen/_5sdp"
+    >
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Choose Inning"
+                  android:padding="@dimen/_5sdp"/>
+        <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="@dimen/_6sdp">
+            <RadioButton
+                    android:id="@+id/inning1_radio_bt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1"
+
+            />
+            <RadioButton
+                    android:id="@+id/inning2_radio_bt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2"
+            />
+        </RadioGroup>
+
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="vertical"
+                 android:layout_marginTop="@dimen/_10sdp"
+
+                 android:layout_marginLeft="@dimen/_5sdp"
+   >
+       <TextView android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="Match Status"
+                 android:padding="@dimen/_5sdp"/>
+       <RadioGroup
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:orientation="vertical"
+              >
+           <RadioButton
+                   android:id="@+id/live_radio_bt"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Live"
+           />
+           <RadioButton
+                   android:id="@+id/upcoming_radio_bt"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Upcoming"
+                  />
+           <RadioButton
+                   android:id="@+id/finished_radio_bt"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="Finished"
+                   />
+       </RadioGroup>
+
+   </LinearLayout>
+    <Button android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+    android:text="Update"
+            android:layout_margin="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+    android:id="@+id/updatematchstatus_bt"/>
+
+</LinearLayout>
